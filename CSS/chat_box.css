@@ -1,0 +1,113 @@
+    #chat_box_wrapper {
+    position: fixed;
+    right: 0;
+    height: 400px;
+    width: 250px;
+    border: 2px solid #3B5998;
+    padding: 5px;
+    background-color: #FFF;
+    bottom: 0px;
+}
+
+#chat_box_header {
+    position: relative;
+    top: -7px;
+    left: -7px;
+    padding: 5px;
+    height: 25px;
+    width: 254px;
+    background-color: #3B5998;
+    color: #FFF;
+}
+
+.chat_box_indicator {
+    position: relative;
+    float: left;
+    height: 25px;
+    width: 25px;
+    padding-left: 5px;
+}
+
+.chat_box_indicator img {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+}
+
+.chat_box_friend_name {
+    position: absolute;
+    left: 15%;
+    padding: 5px;
+    height: 25px;
+    top: 10%;
+    font-size: 14px;
+    width: 150px;
+    float: left;
+    padding-left: 5px;
+}
+
+#chat_box_Btn {
+    position: relative;
+    float: right;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+i.material-icons {
+    font-size: 15px;
+    color: #fff;
+}
+
+#chat_box_body {
+    position: relative;
+    height: 310px;
+    width: auto;
+    overflow: auto;
+    padding: 10px;
+}
+
+#chat_box_footer {
+    position: relative;
+    height: 20px;
+    width: 242px;
+    overflow: auto;
+    background-color: #3B5998;
+    padding: 10px;
+    left: -7px;
+    right: -7px;
+}
+
+#chat_box_text_area {
+    position: relative;
+    float: left;
+    width: 220px;
+}
+
+#chat_box_send_Btn {
+    position: relative;
+    float: right;
+    width: 20px;
+    height: 25px;
+    padding-top: 5px;
+}
+
+#chat_box_send_Btn i.material-icons {
+    font-size: 20px;
+}
+
+a {
+    color: #fff;
+}
+
+input {
+    position: relative;
+    width: 220px;
+    float: left;
+}
+
+@media screen and (min-width:) {
+    body {
+        background-color: lightblue;
+    }
