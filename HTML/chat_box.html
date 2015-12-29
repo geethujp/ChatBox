@@ -3,6 +3,7 @@
         <title>Chat Demo</title>
         <link rel="stylesheet" type="text/css" href="../CSS/chat_box.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+       
     </head>
     <body>
         <div id="chat_box_wrapper">
@@ -10,10 +11,19 @@
                 <div class="chat_box_indicator"><img src="../Images/woman.jpeg"></div>
                 <div class="chat_box_friend_name">Geethu Jose</div>
                 <div id="chat_box_Btn">
-                    <a href="/"> <i class="material-icons">settings</i></a>
-                    <a href="/"><i class="material-icons">close</i></a>
+                     <i class="material-icons">settings</i>
+                    <i class="material-icons">close</i>
                 </div>
             </div>
+            <nav id="chat_box_drawer" class="">
+                <ul>
+                    <li><a href="#">General</a></li>
+                    <li><a href="#">Labels</a></li>
+                    <li><a href="#">Inbox</a></li>
+                    <li><a href="#">Accounts</a></li>
+                    <li><a href="#">Chat</a></li>
+                </ul>
+            </nav>
             <div id="chat_box_body">
                 If you want to learn how to get the most out of your life, there isn't a much better teacher than Steve Jobs, who appeared to pack several lifetimes, never mind several careers, into his 56 years on our planet. And though Jobs did not discuss his life or his unconventional choices in public all that often, one notable exception was his commencement speech to Stanford's 2005 graduating class, where he laid out his philosophy as lessons anyone can follow.1. Follow your heart and trust that it knows where it's going.
                 Six months into his first year at Reed College, Jobs dropped out-a very big deal, since his biological mother had made college education a requirement of his adoption, and his adoptive parents had saved for years so he could go.
@@ -29,5 +39,11 @@
                 </div>
             </div>
         </div>
+         <script type="text/javascript">
+        document.getElementById('chat_box_Btn').addEventListener('click',drawer, false);
+         function  drawer(){
+            document.getElementById('chat_box_drawer').classList.toggle('drawer_right');
+          }
+        </script>
     </body>
 </html>
